@@ -56,7 +56,7 @@ empleado1.solicitar_edad()
 empleado1.sueldo = float(input("Ingrese el sueldo actual del empleado 1: "))
 nuevo_sueldo1 = empleado1.aumento_sueldo()
 
-print("El empleado {} cuenta con un con aumento: S/. {} ".format(empleado1.nombre,nuevo_sueldo1))
+print("El empleado {} con nacionalidad {} cuenta con un con aumento: S/. {} ".format(empleado1.nombre,empleado1.nacionalidad,nuevo_sueldo1))
 print(empleado1.edad_en(2026,int(input("Ingrese edad para verificar (Empleado 1): "))))
 #ingresando 2025 por parametro
 
@@ -67,5 +67,5 @@ empleado2.solicitar_edad()
 empleado2.sueldo = float(input("Ingrese el sueldo actual del empleado 2: "))
 nuevo_sueldo2 = empleado2.aumento_sueldo()
 
-print("El empleado {} cuenta con un con aumento: S/. {} ".format(empleado2.nombre,nuevo_sueldo2))
+print("El empleado {} con nacionalidad {} cuenta con un con aumento: S/. {} ".format(empleado2.nombre,empleado2.nacionalidad,nuevo_sueldo2))
 print(empleado1.edad_en(2025,int(input("Ingrese edad para verificar (Empleado 2): "))))
